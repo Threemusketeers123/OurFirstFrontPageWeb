@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .top{ 
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-color:  #FFFFFF;
+
+        .top_box{
+            width: 90%;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: px2rem(20) ;
+        margin-bottom:  px2rem(20);
+        a{
+            position: absolute;
+            left: 5%;
+            top: px2rem(33);
+            width: px2rem(30);
+            height:px2rem(30);
+            display: block;
+            .icon_fanhui{
+                position: absolute;
+                width: px2rem(34);
+                height:px2rem(34);
+            }
+        }
+        .span_one{
+            font-weight: 600;
+            font-size: px2rem(34); 
+        }
+        .span_two{
+            display: none;
+            font-size: px2rem(27); 
+            color: red;
+        }
+    }
+}
+    .middle{
+        margin: 0 auto;
+        img{
+            margin-top: px2rem(50);
+            margin-bottom: px2rem(50);
+            width: px2rem(190);
+            height: px2rem(190);
+        }
+    }
+    .bottom{
+        background-color:  #FFFFFF;
+        .bottom_box{
+            margin: 0 auto;
+            width: 75%;
+            .bottom_top{
+                font-size: px2rem(25);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #000;
+                margin-top: px2rem(75);
+                margin-bottom: px2rem(50);
+                padding-bottom:px2rem(15) ;
+                div{
+                display: flex; 
+                align-items: center;
+                flex-shrink: 1;
+               
+                    .icon_phone{
+                        width: px2rem(34);
+                        height: px2rem(34);
+                }
+                    input{
+                        margin-left: px2rem(5);
+                        font-size: px2rem(30);
+                        border: none;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: #0878FE;
+                }
+            }
+            .bottom_middle{
+                margin-top:px2rem(40) ;
+                display: flex;
+                border-bottom: 1px solid #000;
+                align-items: center;
+                padding-bottom:px2rem(20) ;
+                a{
+                    font-size: px2rem(21);
+                    text-decoration: none;
+                    color: #0878FE;
+                }
+                .icon_yan{
+                    width: px2rem(34);
+                    height: px2rem(34);
+                    
+                }
+                input{
+                    margin-left: px2rem(5);
+                    font-size: px2rem(30);
+                    border: none;
+                }
+            }
+            .middle_box{
+                justify-content: space-between;
+                div{
+                    display: flex;
+                    align-items: center;
+                }
+                .icon{
+                    width: px2rem(32);
+                    height: px2rem(32);
+                }
+        }
+        .bottom_pass{
+            margin-top: px2rem(25);
+            margin-bottom: px2rem(25);
+            overflow: hidden;
+            span{
+                color: #4E4E4E;
+                font-size: px2rem(23);
+                float: right;
+            }
+        }
+        .bottom_bottom{
+            margin-top: px2rem(70);
+            margin-bottom: px2rem(85);
+            width: 100%;
+            height: px2rem(87);
+            border: 1px solid rgb(183,183,183);
+            line-height: px2rem(87);
+            border-radius: px2rem(43.5);
+            font-size: 1rem;
+            background: -webkit-linear-gradient( left,#FF6918,#FE281C);
+              color: #ffffff;
+              box-shadow:0px 1px 7px rgb(254,71,35);
+              text-align: center;
+        }
+        .bottom_font{
+            color: #4E4E4E;
+            display: flex;
+            justify-content: center;
+            font-size: px2rem(23);
+            a{
+                text-decoration: none;
+                margin-left: px2rem(10);
+                color: #FE0701;
+            }
+        }
+        }
+    }
+}

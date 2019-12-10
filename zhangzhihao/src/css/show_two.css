@@ -1,0 +1,68 @@
+body, html {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  width: 100%;
+  height: 100%; }
+  .container .top img {
+    margin-top: -0.75rem;
+    width: 100%;
+    height: 19.95rem; }
+  .container .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem; }
+    .container .bottom .txt_action {
+      font-size: 0.9rem;
+      color: red; }
+    .container .bottom .txt_25 {
+      font-size: 0.625rem;
+      margin-top: 0.625rem;
+      margin-bottom: 0.75rem;
+      color: #888888; }
+    .container .bottom .yuan {
+      display: flex; }
+      .container .bottom .yuan .yuan_one {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        width: 0.375rem;
+        height: 0.375rem;
+        line-height: 0.375rem;
+        text-align: center;
+        background-color: #CCCCCC;
+        color: #fff;
+        border-radius: 50%; }
+    .container .bottom .xuan {
+      width: 100%;
+      display: flex;
+      margin-top: 1.425rem; }
+
+.action {
+  background-color: #FE231D !important; }
+
+.left {
+  flex-grow: 1;
+  height: 1.75rem;
+  border: 2px solid red;
+  line-height: 1.75rem;
+  border-radius: 0.875rem;
+  font-size: 0.7rem;
+  color: red;
+  text-align: center;
+  margin-right: 0.35rem; }
+
+.right {
+  flex-grow: 1;
+  height: 1.8rem;
+  border: 1px solid #b7b7b7;
+  line-height: 1.8rem;
+  border-radius: 0.9rem;
+  font-size: 0.7rem;
+  background: -webkit-linear-gradient(left, #FF6918, #FE281C);
+  color: #ffffff;
+  box-shadow: 0px 1px 7px #fe4723;
+  text-align: center; }

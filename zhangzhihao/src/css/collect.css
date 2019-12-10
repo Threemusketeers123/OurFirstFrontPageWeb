@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.container .top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .container .top a {
+    width: 0.75rem;
+    height: 0.75rem;
+    display: block;
+    position: absolute;
+    left: 0.925rem;
+    top: 0.125rem; }
+    .container .top a .icon_fanhui {
+      width: 0.75rem;
+      height: 0.75rem;
+      position: absolute;
+      top: 0.125rem; }
+  .container .top span {
+    font-weight: 600;
+    font-size: 0.75rem; }
+
+.container .bottom {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .container .bottom .bottom_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between; }
+    .container .bottom .bottom_box div img {
+      width: 7.5rem;
+      height: 7.5rem;
+      margin-bottom: 1.75rem; }
+    .container .bottom .bottom_box p {
+      font-size: 0.6rem;
+      color: #8D8D8D; }

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* 颜色渐变 */
+body {
+  font-size: 62.5%; }
+
+@keyframes warn {
+  0% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    opacity: 0.0; }
+  25% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    opacity: 0.1; }
+  50% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    opacity: 0.3; }
+  75% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    opacity: 0.5; }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 0.0; } }
+
+@keyframes warn1 {
+  0% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    opacity: 0.0; }
+  25% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    opacity: 0.1; }
+  50% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    opacity: 0.3; }
+  75% {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    opacity: 0.5; }
+  100% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    opacity: 0.0; } }
+
+.container {
+  position: relative;
+  width: 3.5rem;
+  height: 3.5rem; }
+
+.herder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.4rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  position: relative; }
+
+.icon_jiantou {
+  width: 0.95rem;
+  height: 0.95rem;
+  position: absolute;
+  margin-top: 0.05rem;
+  left: 4%; }
+
+/* 保持大小不变的小圆点 */
+.dot {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  left: 0.5rem;
+  top: 0.5rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 0.025rem solid #33ccff;
+  border-radius: 50%;
+  background-color: #2e8efe;
+  /* 实心圆 ，如果没有这个就是一个小圆圈 */
+  z-index: 2; }
+
+/* 产生动画（向外扩散变大）的圆圈 第一个圆 */
+.pulse {
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 0.025rem solid #3399ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-animation: warn 2s ease-out;
+  -moz-animation: warn 2s ease-out;
+  animation: warn 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  box-shadow: 0.025rem 0.025rem 0.75rem #3399ff;
+  /* 阴影效果 */ }
+
+/* 产生动画（向外扩散变大）的圆圈 第二个圆 */
+.pulse1 {
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 0.025rem solid #3399ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-animation: warn1 2s ease-out;
+  -moz-animation: warn1 2s ease-out;
+  animation: warn1 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  box-shadow: 0.025rem 0.025rem 0.75rem #3399ff;
+  /* 阴影效果 */ }
+
+.icon_gou {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.5rem; }
+
+.yuan_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.bottom {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.cg {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  margin-bottom: 0.8rem; }
+
+.sh {
+  color: #A2A2A2;
+  font-size: 0.55rem;
+  margin-bottom: 1.55rem; }
+
+.button {
+  width: 60%;
+  height: 2.125rem;
+  border: 1px solid #b7b7b7;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 1.1rem;
+  line-height: 2.125rem;
+  border-radius: 1.0625rem;
+  font-size: 0.75rem; }
+
+.button_ck {
+  background: -webkit-linear-gradient(left, #FF6918, #FE281C);
+  color: #ffffff;
+  box-shadow: 0px 1px 7px #fe4723; }

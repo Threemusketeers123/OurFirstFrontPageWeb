@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .top{ 
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-color:  #FFFFFF;
+
+        .top_box{
+            width: 90%;
+            display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: px2rem(20) ;
+        margin-bottom:  px2rem(20);
+        a{
+            width: px2rem(30);
+            height:px2rem(30);
+            display: block;
+            .icon_fanhui{
+                position: absolute;
+                top: px2rem(30);
+                width: px2rem(34);
+                height:px2rem(34);
+            }
+        }
+        .span_one{
+            font-weight: 600;
+            font-size: px2rem(34); 
+        }
+        .span_two{
+            visibility: hidden;
+            font-size: px2rem(27); 
+            color: red;
+        }
+    }
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        margin-top: px2rem(50);
+        .bottom_box{
+
+            width: 80%;
+            .bottom_box_top{
+                text-align: center;
+                font-size: px2rem(30);
+                display: flex;
+                justify-content: space-between;
+                .bottom_box_top_right{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span{
+                    margin-right: px2rem(10);
+                }
+                .right_jiantou{
+                    width: 0;   
+                    height: 0;   
+                    border-left: px2rem(10) solid transparent;  /* 左边框的宽 */  
+                    border-right: px2rem(10) solid transparent; /* 右边框的宽 */  
+                    border-top: px2rem(12) solid #000000; /* 下边框的长度|高,以及背景色 */  
+                    font-size: 0;  
+                    line-height: 0; 
+                }
+                }
+            }
+            .bottom_box_middle{
+                font-size: px2rem(32);
+                display: flex;
+                flex-direction: column;
+                margin-top:px2rem(60) ;
+                span{
+                    color: #6F6F6F;
+                }
+                div{
+                    display: flex;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+                    span{
+                        font-size: px2rem(55);
+                        font-weight: bold;
+                        color: #000;
+                    }
+                    input{
+                        font-size: px2rem(55);
+                        font-weight: bold;
+                        width: 100%;
+                        border: none;
+                    }
+                }
+            }
+            .bottom_box_bottom{
+                div{
+                    margin-top:px2rem(55) ;
+                    text-align: center;
+                    width: 100%;
+    height: px2rem(87);
+    border: 1px solid rgb(183,183,183);
+    line-height: px2rem(87);
+    border-radius: px2rem(43.5);
+    font-size: px2rem(34);
+    background: -webkit-linear-gradient( left,#FF6918,#FE281C);
+      color: #ffffff;
+      box-shadow:0px 1px 7px rgb(254,71,35);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+body {
+  background-color: #F5F5F5; }
+
+.container {
+  background-color: #ffffff; }
+  .container .top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .container .top a {
+      width: 0.75rem;
+      height: 0.75rem;
+      display: block;
+      position: absolute;
+      left: 0.925rem;
+      top: 0.125rem; }
+      .container .top a .icon_fanhui {
+        width: 0.75rem;
+        height: 0.75rem;
+        position: absolute;
+        top: 0.125rem; }
+    .container .top span {
+      font-weight: 600;
+      font-size: 0.75rem; }
+  .container .middle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 3.5rem; }
+    .container .middle .money {
+      margin-top: 0.25rem;
+      font-size: 1.05rem;
+      color: red;
+      font-weight: bold; }
+  .container .bottom {
+    margin-left: 0.675rem;
+    margin-right: 0.675rem;
+    display: flex;
+    flex-direction: column; }
+    .container .bottom .bottom_top {
+      margin-top: 1.375rem;
+      margin-bottom: 1.375rem;
+      font-size: 0.5rem;
+      color: #8D8D8D; }
+    .container .bottom .bottom_money {
+      font-size: 0.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.375rem; }
+      .container .bottom .bottom_money .bottom_money_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+        .container .bottom .bottom_money .bottom_money_left .icon_money {
+          width: 1.125rem;
+          height: 1.125rem;
+          margin-right: 0.45rem; }
+      .container .bottom .bottom_money .icon_gou_red {
+        width: 0.8rem;
+        height: 0.8rem; }
+  .container .font {
+    position: relative; }
+    .container .font .button {
+      position: absolute;
+      top: 1.5rem;
+      width: 60%;
+      height: 2.175rem;
+      border: 1px solid #b7b7b7;
+      margin-left: 20%;
+      margin-right: 20%;
+      line-height: 2.175rem;
+      border-radius: 1.0875rem;
+      font-size: 1rem;
+      background: -webkit-linear-gradient(left, #FF6918, #FE281C);
+      color: #ffffff;
+      box-shadow: 0px 1px 7px #fe4723;
+      text-align: center; }

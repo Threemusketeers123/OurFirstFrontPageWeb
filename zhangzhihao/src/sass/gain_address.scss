@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:  #F5F5F5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .top{ 
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-color:  #FFFFFF;
+
+        .top_box{
+            width: 90%;
+            display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            width: px2rem(30);
+            height:px2rem(30);
+            display: block;
+            .icon_fanhui{
+                position: absolute;
+                top: px2rem(30);
+                width: px2rem(30);
+                height:px2rem(30);
+            }
+        }
+        .span_one{
+            font-weight: 600;
+            font-size: px2rem(30); 
+        }
+        .span_two{
+            font-size: px2rem(27); 
+            color: red;
+        }
+    }
+    }
+    .bottom{
+        background-color:  #FFFFFF;
+        display: flex;
+        justify-content: center;
+        margin-bottom:px2rem(15) ;
+        .bottom_box{
+            margin-top: px2rem(34);
+            width: 90%;
+            position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .bottom_top{
+            display: flex;
+            justify-content: space-between;
+            font-size: px2rem(27);
+            .bottom_top_action{
+                font-weight: 600;
+            }
+            .bottom_top_icon{
+                display: flex;
+                align-items: center;
+                span{
+                    margin-right: px2rem(15);
+                }
+            }
+            .icon{
+                width:px2rem(30) ;
+                height:px2rem(30) ;
+            }
+        }
+        .bottom_bottom{
+            margin-top: px2rem(10   );
+            span{
+                font-size: px2rem(24);
+                color: #757575;
+            }
+        }
+    }
+    }
+    }

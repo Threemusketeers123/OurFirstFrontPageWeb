@@ -1,0 +1,92 @@
+@charset "UTF-8";
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .container .top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF; }
+    .container .top .top_box {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; }
+      .container .top .top_box a {
+        width: 0.75rem;
+        height: 0.75rem;
+        display: block; }
+        .container .top .top_box a .icon_fanhui {
+          position: absolute;
+          top: 0.75rem;
+          width: 0.85rem;
+          height: 0.85rem; }
+      .container .top .top_box .span_one {
+        font-weight: 600;
+        font-size: 0.85rem; }
+      .container .top .top_box .span_two {
+        visibility: hidden;
+        font-size: 0.675rem;
+        color: red; }
+  .container .bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem; }
+    .container .bottom .bottom_box {
+      width: 80%; }
+      .container .bottom .bottom_box .bottom_box_top {
+        text-align: center;
+        font-size: 0.75rem;
+        display: flex;
+        justify-content: space-between; }
+        .container .bottom .bottom_box .bottom_box_top .bottom_box_top_right {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          .container .bottom .bottom_box .bottom_box_top .bottom_box_top_right span {
+            margin-right: 0.25rem; }
+          .container .bottom .bottom_box .bottom_box_top .bottom_box_top_right .right_jiantou {
+            width: 0;
+            height: 0;
+            border-left: 0.25rem solid transparent;
+            /* 左边框的宽 */
+            border-right: 0.25rem solid transparent;
+            /* 右边框的宽 */
+            border-top: 0.3rem solid #000000;
+            /* 下边框的长度|高,以及背景色 */
+            font-size: 0;
+            line-height: 0; }
+      .container .bottom .bottom_box .bottom_box_middle {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem; }
+        .container .bottom .bottom_box .bottom_box_middle span {
+          color: #6F6F6F; }
+        .container .bottom .bottom_box .bottom_box_middle div {
+          display: flex;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.301); }
+          .container .bottom .bottom_box .bottom_box_middle div span {
+            font-size: 1.375rem;
+            font-weight: bold;
+            color: #000; }
+          .container .bottom .bottom_box .bottom_box_middle div input {
+            font-size: 1.375rem;
+            font-weight: bold;
+            width: 100%;
+            border: none; }
+      .container .bottom .bottom_box .bottom_box_bottom div {
+        margin-top: 1.375rem;
+        text-align: center;
+        width: 100%;
+        height: 2.175rem;
+        border: 1px solid #b7b7b7;
+        line-height: 2.175rem;
+        border-radius: 1.0875rem;
+        font-size: 0.85rem;
+        background: -webkit-linear-gradient(left, #FF6918, #FE281C);
+        color: #ffffff;
+        box-shadow: 0px 1px 7px #fe4723; }

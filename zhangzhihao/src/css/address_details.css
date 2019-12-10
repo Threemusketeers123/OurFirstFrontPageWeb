@@ -1,0 +1,66 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #F5F5F5; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .container .top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF; }
+    .container .top .top_box {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; }
+      .container .top .top_box a {
+        width: 0.75rem;
+        height: 0.75rem;
+        display: block; }
+        .container .top .top_box a .icon_fanhui {
+          position: absolute;
+          top: 0.75rem;
+          width: 0.75rem;
+          height: 0.75rem; }
+      .container .top .top_box .span_one {
+        font-weight: 600;
+        font-size: 0.75rem; }
+      .container .top .top_box .span_two {
+        font-size: 0.675rem;
+        color: red; }
+  .container .bottom {
+    margin-top: 0.375rem;
+    clear: both;
+    font-size: 0.675rem;
+    background-color: #FFFFFF; }
+    .container .bottom .bottom_right {
+      width: 95%;
+      float: right; }
+      .container .bottom .bottom_right .name {
+        border-bottom: 1px solid #A7A7A7;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+        display: flex; }
+        .container .bottom .bottom_right .name .sp {
+          width: 2.25rem;
+          display: inline-block;
+          text-align: justify;
+          text-align-last: justify;
+          margin-right: 0.125rem; }
+        .container .bottom .bottom_right .name .input {
+          flex-grow: 1;
+          border: none;
+          font-size: 0.65rem; }
+      .container .bottom .bottom_right .bottom_bottom {
+        display: flex;
+        margin-top: 0.65rem; }
+        .container .bottom .bottom_right .bottom_bottom .address {
+          flex-grow: 1;
+          font-size: 0.65rem;
+          border: none; }
