@@ -1,0 +1,318 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+$designWidth:750;
+.container{
+    background: #f3f3f3;
+    .imgdiv{
+        height: px2rem(650);
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .imgdiv-open{
+            height: px2rem(40);
+            line-height: px2rem(40);
+            width:px2rem(100);
+            text-align: center;
+            border-radius: px2rem(30);
+            color: white;
+            background-color: grey;
+            position: absolute;
+            right: px2rem(15);
+            top: px2rem(580);
+            font-size: px2rem(28);
+            background: rgba(48, 48, 53, 0.6);
+        }
+    }
+
+    .goodsinfo{
+        background-color: white;
+        padding:px2rem(20) px2rem(15) px2rem(45);
+        ul{
+            height: px2rem(90);
+            line-height: px2rem(90);
+            overflow: hidden;
+            .goodsinfo-price{
+                float: left;
+                .price-one{
+                    color: red;
+                    font-size: px2rem(35);
+                    margin-right: px2rem(30);
+                }
+                .price-two{
+                    height: 100%;
+                    color: grey;
+                    font-size: px2rem(26);
+                }
+            }
+            .goodsinfo-free{
+                float: right;
+                color: royalblue;
+                font-size:px2rem(20);
+                background: rgba(29, 29, 155, 0.4);
+                height: px2rem(40);
+                width: px2rem(120);
+                text-align: center;
+                margin-top: px2rem(25);
+                line-height: px2rem(40);
+                border-radius: px2rem(25);
+            }
+            
+        }
+        .goodsname{
+            font-size: px2rem(34);
+            font-weight: bold;
+            height: px2rem(80);
+            line-height: px2rem(80);
+        }
+        .goodsdesc{
+            display: block;
+            font-size: px2rem(10);
+            color:grey;
+        }
+        .way{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: px2rem(40);
+            
+            span{
+                color: grey;
+                
+            font-size: px2rem(23);
+            }
+        }
+    }
+    .actser{
+        background-color: white;
+        margin-top: px2rem(10);
+        padding: px2rem(30) px2rem(15);
+        p{
+            display: block;
+            height: px2rem(60);
+            line-height: px2rem(60);
+            font-size: px2rem(30);
+            .actser-one{
+                color: grey;
+                margin-right: px2rem(50);
+            }
+        }
+    }
+    .spec{
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        height: px2rem(60);
+        line-height: px2rem(60);
+        margin-top: px2rem(10);
+        padding: px2rem(15);
+        font-size: px2rem(32);
+        .spec-left{
+            float: left;
+            margin-right: px2rem(50);
+            color: grey;
+        }
+        .spec-center{
+            float: left;
+            background-color: white;
+            span{
+                margin-right: px2rem(18);
+                color: black;
+            }
+        }
+        .spec-right{
+            float: left;
+            position: absolute;
+            right: px2rem(15);
+            top: px2rem(12);
+            .spec-right-arrow{
+                font-size: px2rem(28);
+                color: grey;
+            }
+        }
+    }
+    .goodsappraise{
+        margin-top: px2rem(10);
+        padding: px2rem(15);
+        background-color: white;
+        a{
+            text-decoration: none;
+            .goodsappraise-title{
+                height: px2rem(60);
+                line-height: px2rem(60);
+                font-size: px2rem(28);
+                border-bottom: px2rem(1) solid gray;
+                overflow: hidden;
+                padding-bottom: px2rem(16);
+                color: black;
+                .goodsappraise-staraccount{
+                    font-size: px2rem(28);
+                }
+                .goodsappraise-account{
+                    float: right;
+                    color: gray;
+                }
+            }
+        }
+        .buyerapperaise{
+            padding-top: px2rem(3);
+            border-bottom: px2rem(1) solid #bcbcbc;
+            p{
+                display: block;
+                margin-top: px2rem(25);
+                font-size: px2rem(9);
+                overflow: hidden;
+                color: gray;
+                line-height: px2rem(36);
+                .stars{
+                    color: orange;
+                    
+                    font-size: px2rem(20);
+                }
+                .buyer{
+                    font-size: px2rem(22);
+                    color: gray;
+                    float: right;
+                }
+            }
+            .goodsimgs{
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: px2rem(10);
+                .imgs{
+                    width: px2rem(70);
+                    height: px2rem(70);
+                    margin: px2rem(10) px2rem(10) 0 0;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }   
+            .buydate{
+                font-size: px2rem(16);  
+                color: gray;
+                margin-bottom: px2rem(20);
+            }
+        }
+        .btn{
+            text-align: center;
+            padding: px2rem(40) 0;
+            button{
+                width: px2rem(330);
+                height: px2rem(50);
+                font-size: px2rem(28);
+                border-radius: px2rem(25);
+                border: px2rem(1) solid gray;
+                background: white;
+                outline: none;
+            }
+        }
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        padding: px2rem(30) px2rem(0);
+        margin-top: px2rem(10);
+        background-color: white;
+        .nav-active{
+            color: red;
+            border-bottom: px2rem(2) solid red;
+
+        }
+        div{
+            font-size: px2rem(28);
+            height: px2rem(40);
+            line-height: px2rem(40);
+        }
+    }
+    .goodsbuym{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        .goodsbuy{
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            padding: px2rem(15) 0;
+            
+            .goodsbuy-kefu{
+                width: px2rem(50);
+                height: px2rem(60);
+                float: left;
+                margin-top: px2rem(15);
+                a{
+                    text-decoration: none;
+                    color: gray;
+                    overflow: hidden;
+                    display: block;
+                    .p{
+                        font-size: px2rem(32);
+                        float: left;
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .w{
+                        font-size: px2rem(16);
+                        float: left;
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+            .goodsbuy-shoucang{
+                width: px2rem(50);
+                height: px2rem(60);
+                float: left;
+                color: gray;
+                overflow: hidden;
+                display: block;
+                margin-top: px2rem(15);
+                .p{
+                    font-size: px2rem(30);
+                    float: left;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                }
+                .w{
+                    font-size: px2rem(16);
+                    float: left;
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            .goodsbuy-btn{
+                height: px2rem(70);
+                float: left;
+                overflow: hidden;
+                button{
+                    width: px2rem(200);
+                    height: px2rem(70);
+                float: left;
+                border: 0;
+                }
+                .addcart{
+                    font-size: px2rem(32);
+                    border-top-left-radius: px2rem(35);
+                    border-bottom-left-radius: px2rem(35);
+                    background-color: orange;
+                    color: white;
+                }
+                .nowbuy{
+                    font-size: px2rem(32);
+                    border-top-right-radius: px2rem(35);
+                    border-bottom-right-radius: px2rem(35);
+                    background-color: red;
+                    color: white;
+                }
+            }
+        }
+    }
+}

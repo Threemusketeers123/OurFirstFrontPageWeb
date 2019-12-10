@@ -1,0 +1,85 @@
+.container .title {
+  background: white;
+  height: 1.70667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .container .title a {
+    color: black; }
+    .container .title a .title-arrow {
+      font-size: 0.68267rem;
+      position: absolute;
+      left: 0.42667rem;
+      top: 0.55467rem;
+      color: gray; }
+  .container .title h1 {
+    display: inline-block;
+    font-size: 0.68267rem;
+    font-weight: bold; }
+
+.container .content {
+  padding-left: 0.32rem;
+  padding-right: 0.32rem; }
+  .container .content .content-title {
+    font-size: 0.59733rem;
+    text-align: left;
+    height: 2.13333rem;
+    line-height: 2.13333rem; }
+  .container .content .content-textarea {
+    padding: 0 0.64rem 0 0; }
+    .container .content .content-textarea textarea {
+      height: 300;
+      width: 100%;
+      font-size: 0.64rem;
+      padding: 0.32rem;
+      border-radius: 0.21333rem;
+      background: #f3f3f3;
+      color: #bcbcbc; }
+
+.container .photo {
+  margin-left: 0.32rem;
+  margin-right: 0.32rem;
+  border-bottom: 1px solid grey; }
+  .container .photo .photo-title {
+    font-size: 0.59733rem;
+    text-align: left;
+    height: 2.13333rem;
+    line-height: 2.13333rem; }
+  .container .photo .photo-add {
+    overflow: hidden;
+    margin-bottom: 1.06667rem; }
+    .container .photo .photo-add div {
+      border: 0.02133rem dashed #bcbcbc;
+      width: 3.84rem;
+      height: 3.84rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      float: left;
+      margin-right: 0.42667rem; }
+      .container .photo .photo-add div span {
+        font-size: 2.13333rem;
+        color: #bcbcbc; }
+
+.container .commentscore {
+  margin: 0.32rem; }
+  .container .commentscore .commentscore-title {
+    font-size: 0.59733rem;
+    height: 2.13333rem;
+    line-height: 2.13333rem; }
+    .container .commentscore .commentscore-title span {
+      font-size: 0.55467rem;
+      color: orange;
+      margin-left: 0.32rem; }
+  .container .commentscore .commentscore-button {
+    margin-top: 1.06667rem; }
+    .container .commentscore .commentscore-button button {
+      width: 100%;
+      height: 2.13333rem;
+      font-size: 0.68267rem;
+      color: white;
+      background: orangered;
+      border-radius: 1.06667rem;
+      border: 0;
+      outline: none; }

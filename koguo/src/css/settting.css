@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body {
+  background: #f3f3f3; }
+  body .container {
+    background: #f3f3f3;padding: 0;}
+    body .container .title {
+      height: 3.84rem;
+      background: white;
+      padding: 0 0.42667rem; }
+      body .container .title span {
+        font-size: 0.68267rem;
+        color: gray;
+        display: block;
+        height: 1.70667rem;
+        line-height: 1.70667rem; }
+      body .container .title h1 {
+        font-size: 0.98133rem;
+        padding-top: 0.21333rem; }
+    body .container .userinfo {
+      margin-top: 0.32rem;
+      padding: 0 0.42667rem;
+      background: white; }
+      body .container .userinfo li {
+        background: white;
+        font-size: 0.64rem; }
+        body .container .userinfo li a {
+          display: block;
+          display: flex;
+          justify-content: space-between;
+          text-decoration: none;
+          color: black; }
+          body .container .userinfo li a div span {
+            font-size: 0.64rem; }
+      body .container .userinfo .first a {
+        height: 2.98667rem;
+        line-height: 2.98667rem;
+        border-bottom: 0.02133rem solid gray; }
+        body .container .userinfo .first a span {
+          display: inline-block; }
+          body .container .userinfo .first a span img {
+            width: 2.13333rem;
+            height: 2.13333rem;
+            border-radius: 1.06667rem;
+            margin: 0.42667rem; }
+      body .container .userinfo .oth a {
+        height: 1.92rem;
+        line-height: 1.92rem;
+        border-bottom: 0.02133rem solid gray; }
+        body .container .userinfo .oth a div span {
+          color: gray; }
+      body .container .userinfo .last a {
+        height: 1.92rem;
+        line-height: 1.92rem; }
+        body .container .userinfo .last a div span {
+          color: gray; }
+    body .container .modify {
+      padding: 0 0.42667rem;
+      background: white;
+      margin-top: 0.42667rem; }
+      body .container .modify a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        height: 1.92rem; }
+        body .container .modify a span {
+          font-size: 0.64rem;
+          color: black; }
+        body .container .modify a .next {
+          color: gray; }
+    body .container .exit {
+      height: 1.92rem;
+      text-align: center;
+      margin-top: 0.42667rem;
+      background: white; }
+      body .container .exit a {
+        display: block;
+        height: 100%;
+        text-decoration: none;
+        font: normal bold 0.64rem "正楷";
+        color: black;
+        text-align: center;
+        line-height: 1.92rem; }

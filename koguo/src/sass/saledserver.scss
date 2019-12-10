@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+$designWidth:750;
+.container{
+    .title{
+        background: white;
+        height: px2rem(80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        a{
+            color: black;
+            .title-arrow{
+                font-size: px2rem(32);
+                position: absolute;
+                left: px2rem(20);
+                top: px2rem(26);
+                color: gray;    
+            }
+        }
+        h1{
+            display: inline-block;
+            font-size: px2rem(32);
+            font-weight: bold;
+        }
+        
+    }
+    .content{
+        padding-left: px2rem(15);
+        padding-right: px2rem(15);
+        .content-title{
+            font-size: px2rem(28);
+            text-align: left;
+            height: px2rem(100);
+            line-height: px2rem(100);
+        }
+        .content-textarea{
+            padding: 0 px2rem(30) 0 0;
+            textarea{
+                height:300;
+                width: 100%;
+                font-size: px2rem(30);
+                padding: px2rem(15);
+                border-radius: px2rem(10);
+                background: #f3f3f3;
+                color: #bcbcbc;
+            }
+        }
+    }
+    .photo{
+        margin-left: px2rem(15);
+        margin-right: px2rem(15);
+        .photo-title{
+            font-size: px2rem(28);
+            text-align: left;
+            height: px2rem(100);
+            line-height: px2rem(100);
+        }
+        .photo-add{
+            overflow: hidden;
+            margin-bottom: px2rem(50);
+            div{
+                border: px2rem(1) dashed #bcbcbc;
+                width: px2rem(180);
+                height: px2rem(180);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                float: left;
+                margin-right: px2rem(20);
+                span{
+                    font-size: px2rem(100);
+                    color: #bcbcbc;
+                }
+            }
+        }
+    }
+    .commentscore{
+        margin: px2rem(15);
+        .commentscore-button{
+            margin-top: px2rem(80);
+            button{
+                width: 100%;
+                height: px2rem(100);
+                font-size: px2rem(32);
+                color: white;
+                background: orangered;
+                border-radius: px2rem(50);
+                border: 0;
+                outline: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.container .title {
+  background: white;
+  height: 1.70667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .container .title a {
+    background: rebeccapurple;
+    color: black; }
+    .container .title a .title-arrow {
+      font-size: 0.68267rem;
+      position: absolute;
+      left: 0.42667rem;
+      top: 0.55467rem; }
+  .container .title h1 {
+    display: inline-block;
+    font-size: 0.68267rem;
+    font-weight: bold; }
+
+.container .nav {
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.70667rem; }
+  .container .nav li {
+    font-size: 0.61867rem;
+    color: gray; }
+    .container .nav li .jiage {
+      font-size: 0.55467rem; }
+  .container .nav .active {
+    color: red; }
+
+.container .composetype {
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.70667rem;
+  padding: 0 0.53333rem;
+  color: gray; }
+  .container .composetype .composetype-left {
+    font-size: 0.59733rem; }
+  .container .composetype .composetype-right {
+    line-height: 2.13333rem; }
+    .container .composetype .composetype-right .one {
+      font-size: 0.74667rem;
+      font-weight: bold;
+      margin-right: 0.59733rem; }
+    .container .composetype .composetype-right .two {
+      font-size: 0.768rem;
+      font-weight: bold;
+      color: red; }
+
+.container .goodses {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0.17067rem;
+  margin-top: 0.53333rem; }
+  .container .goodses a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0.32rem; }
+    .container .goodses a img {
+      width: 100%;
+      height: 5.54667rem; }
+    .container .goodses a p {
+      line-height: 0.96rem; }
+    .container .goodses a .goods-name {
+      font-size: 0.61867rem;
+      color: black; }
+    .container .goodses a .goods-desc {
+      font-size: 0.49067rem;
+      color: gray; }
+    .container .goodses a .goods-price {
+      font-size: 0.55467rem;
+      color: red; }
+      .container .goodses a .goods-price .gouwuche {
+        font-size: 0.59733rem;
+        float: right; }

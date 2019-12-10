@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+$designWidth:750;
+body{
+    background-color: #f3f3f3;
+    .container{
+        background-color: #f3f3f3;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: px2rem(80);
+            padding: 0 px2rem(20);
+            background-color: white;
+            span{
+                font-size: px2rem(30);
+            } 
+            .title-left{
+                font-weight: bold;
+                color: gray;
+            }
+            .title-center{
+                font-weight: bold;
+            }
+            .title-right{
+                font-size: px2rem(28);
+            }
+            
+        }
+        .nav{
+            background-color: white;
+            height: px2rem(100);
+            display: flex;
+            justify-content: space-around;
+            div{
+                width: 50%;
+                height: 100%;
+                font-size: px2rem(28);
+                text-align: center;
+                line-height: px2rem(100);
+            }
+            .nav-active{
+                color: red;
+                border-bottom: 2px solid red;
+            }
+        }
+        .cards{
+            .cards-card{
+                background-color: yellow;
+                height: px2rem(170);
+                display: flex;
+                background: radial-gradient(circle at px2rem(180) px2rem(3), transparent px2rem(9), white px2rem(5)) left top,
+                            radial-gradient(circle at px2rem(180) px2rem(81), transparent px2rem(9), white px2rem(5)) left bottom;
+                background-size: 100% 50%;
+                background-repeat: no-repeat;
+                margin: px2rem(20) px2rem(15) 0;
+                border-radius: px2rem(20);
+                align-items: center;
+                div{
+                    width: 25%;
+                    height: px2rem(140);
+                    line-height: px2rem(140);
+                    text-align: center;
+                    border-right: px2rem(1) dashed gray;
+                    margin: px2rem(20) 0;
+                    color: red;
+                    font-size: px2rem(32);
+                    span{
+                        font-size: px2rem(20);
+                    }
+                    
+                }
+                ul{
+                    width: 75%;
+                    .card-title{
+                        font-size: px2rem(30);
+                        margin-left: px2rem(31);
+                        line-height: px2rem(40);
+                        overflow: hidden;
+                        .title-xuanze{
+                            font-size: px2rem(32);
+                            color: royalblue;
+                            float: right;
+                            margin-right: px2rem(50);
+                        }
+                    }
+                    .card-condition{
+                        font-size: px2rem(22);
+                        color: gray;
+                        list-style: disc;
+                        margin-left: px2rem(50);
+                        line-height: px2rem(40);
+                    }
+                }
+            }
+        }
+        .cardshandle_useposition{   
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin-top: px2rem(30);
+            .cardshandle{
+                display: flex;
+                justify-content: space-between;
+                .opt{
+                    flex: 1;
+                    background-color: white;
+                    font-size: px2rem(32);
+                    display: flex;
+                    align-items: center;
+                    .cardshandle-xuanze{
+                    margin-left: px2rem(20);
+                    margin-right: px2rem(16);
+                    font-size: px2rem(32);
+                    }
+                }
+                .btn{
+                    flex: 1;
+                    background-color: red;
+                    button{
+                        width: 100%;
+                        height: px2rem(90);
+                        font-size: px2rem(32);
+                        color: white;
+                        background-color: red;
+                        border: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

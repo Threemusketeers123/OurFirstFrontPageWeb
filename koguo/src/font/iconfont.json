@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "172293",
+      "name": "选择",
+      "font_class": "xuanze",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "2151843",
+      "name": "选择",
+      "font_class": "xuanze1",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "3245863",
+      "name": "排版类型(列表)",
+      "font_class": "list2",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "3377858",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "3478722",
+      "name": "未读",
+      "font_class": "weidu3",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "5077111",
+      "name": "留言",
+      "font_class": "liuyan",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "5262028",
+      "name": "添加 图片",
+      "font_class": "tianjiajiahaowubiankuang--",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "5412786",
+      "name": "返回",
+      "font_class": "next",
+      "unicode": "e50b",
+      "unicode_decimal": 58635
+    },
+    {
+      "icon_id": "6575096",
+      "name": "商品评分",
+      "font_class": "shangpinpingfen",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "6722223",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    },
+    {
+      "icon_id": "8211889",
+      "name": "排版",
+      "font_class": "paiban",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "8523135",
+      "name": "订单编号",
+      "font_class": "dingdanbianhao",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "9038193",
+      "name": "购物车",
+      "font_class": "gouwuchekong",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "9465081",
+      "name": "收 藏",
+      "font_class": "shoucang",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "9797857",
+      "name": "价格",
+      "font_class": "jiage",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11068081",
+      "name": "排版-罗列",
+      "font_class": "paiban-luolie",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    }
+  ]
+}

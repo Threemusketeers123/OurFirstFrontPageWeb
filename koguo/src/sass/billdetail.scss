@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+$designWidth:750;
+body{
+    background: #f3f3f3;
+    .container{
+        .title{
+            text-align: center;
+            position: relative;
+            height: px2rem(80);
+            background: white;
+            span{
+                position: absolute;
+                left: px2rem(30);
+                top: px2rem(28);
+                font-size: px2rem(32);
+            }
+            h1{
+                display: inline-block;
+                font-size: px2rem(32);
+                line-height: px2rem(80);
+                font-weight: bold;
+            }
+    
+        }
+        .order{
+            height:px2rem(750);
+            margin: px2rem(30);
+            background: white;
+            border-radius: px2rem(20);
+            padding: 0   px2rem(20);
+            background: radial-gradient(circle at px2rem(-2) px2rem(200), transparent px2rem(20), white px2rem(5)) left top,
+                        radial-gradient(circle at px2rem(345) px2rem(200), transparent px2rem(20), white px2rem(5)) right bottom;
+            background-size: 50% 100%;
+            background-repeat: no-repeat;
+            .order-top{
+                height: px2rem(200);
+                background: white;
+                border-top-left-radius:px2rem(20);
+                border-top-right-radius: px2rem(20);
+                border-bottom: 1px dashed gray;
+                .top-consume{
+                    text-align: center;
+                    padding: px2rem(50) 0 0;
+                    font-size: px2rem(30);
+                }
+                .top-money{
+                    text-align: center;
+                    padding: px2rem(30) 0 0;
+                    color: red;
+                    font-size: px2rem(38);
+                    font-weight: bold;
+                }
+            }
+            .order-bottom{
+                font-size: px2rem(29);
+                color: gray;
+                background: white;
+                height: px2rem(520);
+                p{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: px2rem(80);
+    
+                }
+                footer{
+                    background: white;
+                    padding: px2rem(100) 0 px2rem(50);
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

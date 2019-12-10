@@ -1,0 +1,173 @@
+@charset "utf-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+
+$designWidth:750;
+.container{
+    background: #bcbcbc;
+    .title{
+        background: white;
+        height: px2rem(80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        a{
+            color: black;
+            .title-arrow{
+                font-size: px2rem(32);
+                position: absolute;
+                left: px2rem(20);
+                top: px2rem(26);
+                color: gray;
+            }
+        }
+        h1{
+            display: inline-block;
+            font-size: px2rem(32);
+            font-weight: bold;
+        }
+        
+    }
+    .nav{
+        background: white;
+        height: px2rem(100);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: px2rem(15);
+        li{
+            text-align: center;
+            height: px2rem(50);
+            font-size: px2rem(28);
+            flex: 1;
+            color: grey;
+        }
+        .active{
+            color: red;
+            border-bottom: px2rem(2) solid red;
+        }
+    }
+    .orders{
+        margin-top: px2rem(10);
+        background: white;
+        padding: px2rem(45);
+        .orders-one{ 
+            position: relative;
+            border-bottom: 1px solid grey;
+            line-height: px2rem(100);
+            a{
+                text-decoration: none;
+                color: black;
+                .orderslog{
+                    font-size: px2rem(32);
+                }
+                .ordernumber{
+                    font-size: px2rem(32);
+                }
+                .next{
+                    font-size: px2rem(30);
+                    color: #bcbcbc;
+                    position: absolute;
+                    right: 0;
+                    top: px2rem(6);
+                }
+            }
+        }
+        .orders-two{
+            height: px2rem(120);
+            border-bottom: 1px solid#bcbcbc;
+            padding-top: px2rem(20);
+            a{
+                display: flex;
+                text-decoration: none;
+                color: black;
+                .left{
+                    width: px2rem(100);
+                    height: px2rem(100);
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .right{
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    margin: px2rem(15);
+                    .top{
+                        display: flex;
+                        justify-content: space-between;
+                        flex: 1;
+                        align-items: center;
+                        span{
+                            font-size: px2rem(32);
+                        }
+    
+                    }
+                    .bottom{
+                        flex: 1;
+                        display: flex;
+                        font-size: px2rem(22);
+                        color: #bcbcbc;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        .orders-three{
+            height: px2rem(100);
+            line-height: px2rem(100);
+            border-bottom: 1px solid grey;
+            p{
+                display: block;
+                font-size: px2rem(32);
+                float: right;
+                .word{
+                    color: grey;
+                    font-size: px2rem(32);
+                }
+                .freight{
+                    color: red;
+                    font-size: px2rem(32);
+                }
+                .total{
+                    color: red;
+                    font-size: px2rem(32);
+                }
+            }
+        }
+        .orders-four{
+            height: px2rem(120);
+            overflow: hidden;
+            div{
+                width: px2rem(390);
+                overflow: hidden;
+                float: right;
+                margin-top: px2rem(30);
+                .first{
+                    width: px2rem(180);
+                    height:px2rem(60);
+                    border: 1px solid grey;
+                    border-radius: px2rem(60);
+                    float:left;
+                    font-size: px2rem(31.5);
+                    background: white;
+                    outline: none;
+                }
+                .last{
+                    width: px2rem(180);
+                    height:px2rem(60);
+                    border: 1px solid grey;
+                    border-radius: px2rem(60);
+                    float:right;
+                    color: white;
+                    background: orangered;
+                    font-size: px2rem(31.5);
+                    outline: none;
+                }
+            }
+        }
+    }
+
+}

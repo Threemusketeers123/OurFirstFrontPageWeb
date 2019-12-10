@@ -1,0 +1,45 @@
+@charset"utf-8";
+@import"../lib/hotcss-master/src/px2rem.scss";
+
+$designWidth:750;
+
+.container{
+    .title{
+        height: px2rem(80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-bottom: px2rem(1) solid grey;
+        h1{
+            font-size: px2rem(32);
+            font-weight: bold;;
+        }
+        
+        a{
+            background: rebeccapurple;
+            color: black;
+            .title-arrow{
+                font-size: px2rem(32);
+                position: absolute;
+                left: px2rem(20);
+                top: px2rem(26);
+            }
+            
+        }
+    }
+    .text{
+        padding: 0 px2rem(20);
+        h3{
+            font-size: px2rem(18);
+            line-height: px2rem(60);
+            font-weight: bold;
+        }
+        p{
+            font-size: px2rem(16);
+            line-height: px2rem(60);
+            color: grey;
+        }
+    }
+
+}

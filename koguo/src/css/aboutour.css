@@ -1,0 +1,81 @@
+body {
+  background: #f3f3f3; }
+  body .container {
+    background: #f3f3f3; }
+    body .container .title {
+      background: white;
+      height: 1.70667rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative; }
+      body .container .title a {
+        background: rebeccapurple;
+        color: black; }
+        body .container .title a .title-arrow {
+          font-size: 0.68267rem;
+          position: absolute;
+          left: 0.42667rem;
+          top: 0.55467rem; }
+      body .container .title h1 {
+        display: inline-block;
+        font-size: 0.68267rem;
+        font-weight: bold; }
+    body .container .main {
+      background: white;
+      padding: 0.02133rem 0 1.28rem; }
+      body .container .main div {
+        width: 5.12rem;
+        height: 5.12rem;
+        margin: 2.13333rem auto 0.64rem; }
+        body .container .main div img {
+          width: 100%;
+          height: 100%; }
+      body .container .main dl {
+        text-align: center; }
+        body .container .main dl dt {
+          font-size: 1.28rem;
+          font-weight: bold;
+          line-height: 2.13333rem; }
+        body .container .main dl dd {
+          font-size: 0.55467rem;
+          color: gray;
+          line-height: 1.28rem; }
+    body .container .usedeal {
+      background: white;
+      margin: 0.32rem 0;
+      line-height: 1.92rem;
+      font-size: 0.68267rem;
+      padding: 0 0.42667rem; }
+      body .container .usedeal a {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        color: black; }
+        body .container .usedeal a .use-fanhui {
+          color: gray;
+          font-size: 0.64rem; }
+    body .container .bottom {
+      flex-basis: auto;
+      display: flex;
+      justify-content: center;
+      padding: 4.26667rem;
+      position: relative; }
+      body .container .bottom a {
+        display: block;
+        border: 0.02133rem solid gray;
+        height: 1.28rem;
+        width: 5.54667rem;
+        text-decoration: none;
+        text-align: center;
+        font-size: 0.68267rem;
+        line-height: 1.28rem;
+        border-radius: 0.64rem;
+        color: black; }
+        body .container .bottom a .kefu {
+          font-size: 0.68267rem; }
+      body .container .bottom .banquan {
+        color: grey;
+        font-size: 0.55467rem;
+        position: absolute;
+        bottom: 0.85333rem; }

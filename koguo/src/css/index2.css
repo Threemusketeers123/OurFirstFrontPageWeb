@@ -1,0 +1,135 @@
+.container {
+  background: #bcbcbc; }
+  .container .title {
+    background: white;
+    height: 1.70667rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+    .container .title a {
+      color: black; }
+      .container .title a .title-arrow {
+        font-size: 0.68267rem;
+        position: absolute;
+        left: 0.42667rem;
+        top: 0.55467rem;
+        color: gray; }
+    .container .title h1 {
+      display: inline-block;
+      font-size: 0.68267rem;
+      font-weight: bold; }
+  .container .nav {
+    background: white;
+    height: 2.13333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.32rem; }
+    .container .nav li {
+      text-align: center;
+      height: 1.06667rem;
+      font-size: 0.59733rem;
+      flex: 1;
+      color: grey; }
+    .container .nav .active {
+      color: red;
+      border-bottom: 0.04267rem solid red; }
+  .container .orders {
+    margin-top: 0.21333rem;
+    background: white;
+    padding: 0.96rem; }
+    .container .orders .orders-one {
+      position: relative;
+      border-bottom: 1px solid grey;
+      line-height: 2.13333rem; }
+      .container .orders .orders-one a {
+        text-decoration: none;
+        color: black; }
+        .container .orders .orders-one a .orderslog {
+          font-size: 0.68267rem; }
+        .container .orders .orders-one a .ordernumber {
+          font-size: 0.68267rem; }
+        .container .orders .orders-one a .next {
+          font-size: 0.64rem;
+          color: #bcbcbc;
+          position: absolute;
+          right: 0;
+          top: 0.128rem; }
+    .container .orders .orders-two {
+      height: 2.56rem;
+      border-bottom: 1px solid #bcbcbc;
+      padding-top: 0.42667rem; }
+      .container .orders .orders-two a {
+        display: flex;
+        text-decoration: none;
+        color: black; }
+        .container .orders .orders-two a .left {
+          width: 2.13333rem;
+          height: 2.13333rem; }
+          .container .orders .orders-two a .left img {
+            width: 100%;
+            height: 100%; }
+        .container .orders .orders-two a .right {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          margin: 0.32rem; }
+          .container .orders .orders-two a .right .top {
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+            align-items: center; }
+            .container .orders .orders-two a .right .top span {
+              font-size: 0.68267rem; }
+          .container .orders .orders-two a .right .bottom {
+            flex: 1;
+            display: flex;
+            font-size: 0.46933rem;
+            color: #bcbcbc;
+            align-items: center; }
+    .container .orders .orders-three {
+      height: 2.13333rem;
+      line-height: 2.13333rem;
+      border-bottom: 1px solid grey; }
+      .container .orders .orders-three p {
+        display: block;
+        font-size: 0.68267rem;
+        float: right; }
+        .container .orders .orders-three p .word {
+          color: grey;
+          font-size: 0.68267rem; }
+        .container .orders .orders-three p .freight {
+          color: red;
+          font-size: 0.68267rem; }
+        .container .orders .orders-three p .total {
+          color: red;
+          font-size: 0.68267rem; }
+    .container .orders .orders-four {
+      height: 2.56rem;
+      overflow: hidden; }
+      .container .orders .orders-four div {
+        width: 8.32rem;
+        overflow: hidden;
+        float: right;
+        margin-top: 0.64rem; }
+        .container .orders .orders-four div .first {
+          width: 3.84rem;
+          height: 1.28rem;
+          border: 1px solid grey;
+          border-radius: 1.28rem;
+          float: left;
+          font-size: 0.672rem;
+          background: white;
+          outline: none; }
+        .container .orders .orders-four div .last {
+          width: 3.84rem;
+          height: 1.28rem;
+          border: 1px solid grey;
+          border-radius: 1.28rem;
+          float: right;
+          color: white;
+          background: orangered;
+          font-size: 0.672rem;
+          outline: none; }

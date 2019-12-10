@@ -1,0 +1,253 @@
+.container {
+  background: #f3f3f3; }
+  .container .imgdiv {
+    height: 13.86667rem;
+    position: relative; }
+    .container .imgdiv img {
+      width: 100%;
+      height: 100%; }
+    .container .imgdiv .imgdiv-open {
+      height: 0.85333rem;
+      line-height: 0.85333rem;
+      width: 2.13333rem;
+      text-align: center;
+      border-radius: 0.64rem;
+      color: white;
+      background-color: grey;
+      position: absolute;
+      right: 0.32rem;
+      top: 12.37333rem;
+      font-size: 0.59733rem;
+      background: rgba(48, 48, 53, 0.6); }
+  .container .goodsinfo {
+    background-color: white;
+    padding: 0.42667rem 0.32rem 0.96rem; }
+    .container .goodsinfo ul {
+      height: 1.92rem;
+      line-height: 1.92rem;
+      overflow: hidden; }
+      .container .goodsinfo ul .goodsinfo-price {
+        float: left; }
+        .container .goodsinfo ul .goodsinfo-price .price-one {
+          color: red;
+          font-size: 0.74667rem;
+          margin-right: 0.64rem; }
+        .container .goodsinfo ul .goodsinfo-price .price-two {
+          height: 100%;
+          color: grey;
+          font-size: 0.55467rem; }
+      .container .goodsinfo ul .goodsinfo-free {
+        float: right;
+        color: royalblue;
+        font-size: 0.42667rem;
+        background: rgba(29, 29, 155, 0.4);
+        height: 0.85333rem;
+        width: 2.56rem;
+        text-align: center;
+        margin-top: 0.53333rem;
+        line-height: 0.85333rem;
+        border-radius: 0.53333rem; }
+    .container .goodsinfo .goodsname {
+      font-size: 0.72533rem;
+      font-weight: bold;
+      height: 1.70667rem;
+      line-height: 1.70667rem; }
+    .container .goodsinfo .goodsdesc {
+      display: block;
+      font-size: 0.21333rem;
+      color: grey; }
+    .container .goodsinfo .way {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.85333rem; }
+      .container .goodsinfo .way span {
+        color: grey;
+        font-size: 0.49067rem; }
+  .container .actser {
+    background-color: white;
+    margin-top: 0.21333rem;
+    padding: 0.64rem 0.32rem; }
+    .container .actser p {
+      display: block;
+      height: 1.28rem;
+      line-height: 1.28rem;
+      font-size: 0.64rem; }
+      .container .actser p .actser-one {
+        color: grey;
+        margin-right: 1.06667rem; }
+  .container .spec {
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    height: 1.28rem;
+    line-height: 1.28rem;
+    margin-top: 0.21333rem;
+    padding: 0.32rem;
+    font-size: 0.68267rem; }
+    .container .spec .spec-left {
+      float: left;
+      margin-right: 1.06667rem;
+      color: grey; }
+    .container .spec .spec-center {
+      float: left;
+      background-color: white; }
+      .container .spec .spec-center span {
+        margin-right: 0.384rem;
+        color: black; }
+    .container .spec .spec-right {
+      float: left;
+      position: absolute;
+      right: 0.32rem;
+      top: 0.256rem; }
+      .container .spec .spec-right .spec-right-arrow {
+        font-size: 0.59733rem;
+        color: grey; }
+  .container .goodsappraise {
+    margin-top: 0.21333rem;
+    padding: 0.32rem;
+    background-color: white; }
+    .container .goodsappraise a {
+      text-decoration: none; }
+      .container .goodsappraise a .goodsappraise-title {
+        height: 1.28rem;
+        line-height: 1.28rem;
+        font-size: 0.59733rem;
+        border-bottom: 0.02133rem solid gray;
+        overflow: hidden;
+        padding-bottom: 0.34133rem;
+        color: black; }
+        .container .goodsappraise a .goodsappraise-title .goodsappraise-staraccount {
+          font-size: 0.59733rem; }
+        .container .goodsappraise a .goodsappraise-title .goodsappraise-account {
+          float: right;
+          color: gray; }
+    .container .goodsappraise .buyerapperaise {
+      padding-top: 0.064rem;
+      border-bottom: 0.02133rem solid #bcbcbc; }
+      .container .goodsappraise .buyerapperaise p {
+        display: block;
+        margin-top: 0.53333rem;
+        font-size: 0.192rem;
+        overflow: hidden;
+        color: gray;
+        line-height: 0.768rem; }
+        .container .goodsappraise .buyerapperaise p .stars {
+          color: orange;
+          font-size: 0.42667rem; }
+        .container .goodsappraise .buyerapperaise p .buyer {
+          font-size: 0.46933rem;
+          color: gray;
+          float: right; }
+      .container .goodsappraise .buyerapperaise .goodsimgs {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0.21333rem; }
+        .container .goodsappraise .buyerapperaise .goodsimgs .imgs {
+          width: 1.49333rem;
+          height: 1.49333rem;
+          margin: 0.21333rem 0.21333rem 0 0; }
+          .container .goodsappraise .buyerapperaise .goodsimgs .imgs img {
+            width: 100%;
+            height: 100%; }
+      .container .goodsappraise .buyerapperaise .buydate {
+        font-size: 0.34133rem;
+        color: gray;
+        margin-bottom: 0.42667rem; }
+    .container .goodsappraise .btn {
+      text-align: center;
+      padding: 0.85333rem 0; }
+      .container .goodsappraise .btn button {
+        width: 7.04rem;
+        height: 1.06667rem;
+        font-size: 0.59733rem;
+        border-radius: 0.53333rem;
+        border: 0.02133rem solid gray;
+        background: white;
+        outline: none; }
+  .container .nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.64rem 0rem;
+    margin-top: 0.21333rem;
+    background-color: white; }
+    .container .nav .nav-active {
+      color: red;
+      border-bottom: 0.04267rem solid red; }
+    .container .nav div {
+      font-size: 0.59733rem;
+      height: 0.85333rem;
+      line-height: 0.85333rem; }
+  .container .goodsbuym {
+    position: fixed;
+    bottom: 0;
+    width: 100%; }
+    .container .goodsbuym .goodsbuy {
+      overflow: hidden;
+      display: flex;
+      justify-content: space-around;
+      background-color: white;
+      padding: 0.32rem 0; }
+      .container .goodsbuym .goodsbuy .goodsbuy-kefu {
+        width: 1.06667rem;
+        height: 1.28rem;
+        float: left;
+        margin-top: 0.32rem; }
+        .container .goodsbuym .goodsbuy .goodsbuy-kefu a {
+          text-decoration: none;
+          color: gray;
+          overflow: hidden;
+          display: block; }
+          .container .goodsbuym .goodsbuy .goodsbuy-kefu a .p {
+            font-size: 0.68267rem;
+            float: left;
+            display: block;
+            width: 100%;
+            text-align: center; }
+          .container .goodsbuym .goodsbuy .goodsbuy-kefu a .w {
+            font-size: 0.34133rem;
+            float: left;
+            display: block;
+            width: 100%;
+            text-align: center; }
+      .container .goodsbuym .goodsbuy .goodsbuy-shoucang {
+        width: 1.06667rem;
+        height: 1.28rem;
+        float: left;
+        color: gray;
+        overflow: hidden;
+        display: block;
+        margin-top: 0.32rem; }
+        .container .goodsbuym .goodsbuy .goodsbuy-shoucang .p {
+          font-size: 0.64rem;
+          float: left;
+          display: block;
+          width: 100%;
+          text-align: center; }
+        .container .goodsbuym .goodsbuy .goodsbuy-shoucang .w {
+          font-size: 0.34133rem;
+          float: left;
+          display: block;
+          width: 100%;
+          text-align: center; }
+      .container .goodsbuym .goodsbuy .goodsbuy-btn {
+        height: 1.49333rem;
+        float: left;
+        overflow: hidden; }
+        .container .goodsbuym .goodsbuy .goodsbuy-btn button {
+          width: 4.26667rem;
+          height: 1.49333rem;
+          float: left;
+          border: 0; }
+        .container .goodsbuym .goodsbuy .goodsbuy-btn .addcart {
+          font-size: 0.68267rem;
+          border-top-left-radius: 0.74667rem;
+          border-bottom-left-radius: 0.74667rem;
+          background-color: orange;
+          color: white; }
+        .container .goodsbuym .goodsbuy .goodsbuy-btn .nowbuy {
+          font-size: 0.68267rem;
+          border-top-right-radius: 0.74667rem;
+          border-bottom-right-radius: 0.74667rem;
+          background-color: red;
+          color: white; }

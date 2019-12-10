@@ -1,0 +1,29 @@
+.container .title {
+  height: 1.70667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-bottom: 0.02133rem solid grey; }
+  .container .title h1 {
+    font-size: 0.68267rem;
+    font-weight: bold; }
+  .container .title a {
+    background: rebeccapurple;
+    color: black; }
+    .container .title a .title-arrow {
+      font-size: 0.68267rem;
+      position: absolute;
+      left: 0.42667rem;
+      top: 0.55467rem; }
+
+.container .text {
+  padding: 0 0.42667rem; }
+  .container .text h3 {
+    font-size: 0.384rem;
+    line-height: 1.28rem;
+    font-weight: bold; }
+  .container .text p {
+    font-size: 0.34133rem;
+    line-height: 1.28rem;
+    color: grey; }
